@@ -1,0 +1,235 @@
+*{ /* cuando ponemos un estedisco quiere decir que abarca a todo el conjunto de la pagina
+
+	el boz- sizing lo añado para tener el espacio de trabajo con el pading
+
+	*/
+
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+body{   /* Aqui van implementado el los estilos del body*/
+
+ font-family: Arial, Sans-serif;
+ font-size: 16px;
+ background: #4a465b;
+
+}
+
+.contenedor{   /* el tamaño del contenedor hay que centrar la pantalle*/
+
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+header{  /* el color del fondo del header aqui estamos dando*/
+	background: #fff;
+}
+
+header nav { /* el tamaño del navegador*/
+	width: 100%;
+
+}
+
+header nav ul { /* el tamaño dela lista */
+	width: 100%;
+	overflow: hidden;
+	list-style: none;
+
+}
+
+header nav ul li{ /* estilo con  */
+ float:left;
+
+}
+
+header nav ul li a { /*Los estilos del menu principal  */
+ text-decoration: none;
+ display: inline-block;
+ padding: 15px 20px;
+ color: #000;
+}
+
+
+header nav ul li a:hover { /*quiero que al pasar el raton por encima cambie de color y el texto tambien*/
+	background: #000;
+	color:#fff;
+}
+
+
+/* Aqui empieza los estilos del contenido y tambien el estilo de la página principal 
+se peude obervar que es todo igual del main*/
+
+.main{
+
+	width: 70%;
+	background: #fff;
+	float: left;
+}
+
+.main .imagen{
+	width: 100%;
+}
+
+.main .imagen img{  /
+	width: 100%;
+	vertical-align: top;
+
+}
+
+.main .posts{
+	padding: 40px;
+}
+
+.main .posts article h2{
+	margin-bottom: 20px;
+	color: #424242;
+}
+
+.main .posts article p{
+	margin-bottom: 15px;
+	line-height: 27px;
+
+}
+
+aside{ /* estilos para el aside con el fin de mejorar los estilos del menu de la página*/
+
+	width: 30%;
+	background: #161f26;
+	padding: 20px;
+	color:#fff;
+	float:left;
+}
+
+aside .widget{
+
+	margin-bottom: 20px;
+
+}
+
+aside.widget .titulo{
+
+	color:#ff8000;
+	border-bottom: 1px solid #ff8000;
+	margin-bottom: 10px;
+}
+
+aside .widget ul{
+
+	list-style: none;
+}
+
+aside .widget ul li{
+
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+
+aside .widget ul li a {   /* estilos para el menu de indice de contenidos con el fin de mejorar los estilos del menu de la página*/
+
+	color:#fff;
+	text-decoration:  none;
+
+}
+
+/* Cuando pase el raton se pondra otro color mas oscuro */
+aside .widget ul li a:hover {  
+
+	color:#8f8f8f;
+}
+
+
+aside .widget p{
+	line-height: 27px;
+
+}
+
+/*Estilos de la tabla punto numero 17 del html */
+
+ table {
+  border: 2px solid black;
+}
+
+ table th,table td {
+  padding   : 10px;
+  border    : 1px solid black;
+  text-align: center;
+}
+
+ table th.numeric,
+ table td.numeric {
+  text-align: right;
+}
+    
+
+
+
+footer{ /*Estilos del pie de pagina */
+	width: 700px;
+	overflow: hidden;
+	background: #000;
+	color:#fff;
+	padding: 15px 0;
+	text-align: center;
+
+}
+
+/* media queri esto afecta a todo la web quiere decir 
+que cuando el ancho tenga de maximo 800 px el main el aside y el footer se 
+adapten a ese tampomo*/
+
+@media screen and (max-width:800px){
+
+.main{
+	width: 100%;
+	}
+
+aside {
+
+	width: 100%;
+	}
+
+footer {
+	width: 100%;
+
+}
+
+}
+
+/*estilos de página de CSS*/
+
+.fondo{
+
+	background-color: red;
+}
+
+
+
+.p_fondo{
+
+ background-color:  green;
+ background-image: 
+ background-repeat:no-repeat;
+ background-attachment: inherit;
+ background-position: center;
+
+}
+
+
+/* responsive de las imagenes tanto en css como en html para 
+que cuando se adapta a formatos mas pequeños las fotos se adapten*/
+
+div.foto {
+width: 96%;
+max-width: 960px;
+margin: 0 auto;
+}
+img {
+width: 100%;
+height: auto;
+}

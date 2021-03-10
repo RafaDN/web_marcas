@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+	initial-scale=1.0, maximun-scale=1.0, maximun-scale=1.0">
+	<link rel="stylesheet" href="css/css.css">
+
+	<title>HTML</title>
+</head>
+<body>
+
+
+	<div class="contenedor">
+		<header>
+			<nav>
+				<ul>
+					<li> <a href="./index.html" target="_blank">HTML</a></li>
+					<li> <a href="./estilos.html" target="_blank">CSS</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<section class="main">
+			<div class="imagen">
+				<img src="img/portada.jpg">
+			</div>
+			<section  class="posts">
+				<article>
+					<a name="punto1"></a><h2>1-Intro-Html</h2></a>
+					<p>El documento HTML tiene dos partes bien diferenciadas. La primera será la cabecera del documento en
+                    la que irá información relativa a la semántica del documento, metadatos, o a los recursos que necesita
+                    para su correcta visualización.
+                    Dentro de la cabecera vamos a encontrar elementos que nos definen la semántica del documento, estos
+                    serán las metatags o metadatos. Además podremos encontrar scripts, hojas de estilo y el más
+                    importante, el título de la página.
+                	Es importante remarcar que el contenido que se encuentre dentro de la cabecera no tiene una
+                    representación visual directa.El cuerpo contendrá la estructura del documento HTML. Dentro del
+                    cuerpo iremos situando los diferentes elementos del lenguaje HTML para la correcta visualización de la
+                    página.</p>
+                    <div class="foto">
+                        <img src="./img/1-estructura.png" width="960"  height="640"  alt="">
+                    </div>
+                    
+              		<br>
+					<a name="punto2"></a><h2>2-Comentarios</h2></a>
+						<p> Los comentarios son muy útiles,ya que sirven para trabajar dar información dentro de nuestra pagina web.
+					 	La etiqueta es:<b> &#60!-- texto comentado --&#62</b></p>
+
+					<a name="punto3"></a><h2>3-Sintaxis</h2></a>
+						<p>
+							Este texto es un texto de ejemplo
+	                            con todas las opciones de HTML5 como el
+	                            <b>negrita</b>,
+	                            <strong>strong</strong>,
+	                            <i>letra italica</i>,
+	                            <em>tento enfatizado</em>,
+	                            <mark>texto marcado</mark>,
+	                            <small>texto pequeño</small>,
+	                            <del>texto borrado</del>,
+	                            <ins>texto insertado</ins>,
+	                            <sub>texto subscrito</sub>,
+	                            <sup>texto superescrito</sup>
+	                            <s>Sostenido relevante</s>
+	                    </p>
+
+                        <div class="foto">
+                        <img src="./img/3-Sintaxis.png" width="960"  height="640"  alt="">
+                        </div>
+                    
+                        <br>
+						
+					<a name="punto4"></a><h2>4-Salto de linea</h2></a>
+						<p>La etiqueta del salto de linea es: <b> &#60br&#62</b> se pone dentro de un parrafo</p></p>
+					<a name="punto5"></a><h2>5-Hiperenlace</h2></a>
+						<p> Este texto contiene un enlace a la página de:
+                    <a href="https://www.w3schools.com/html/">Página w3c</a> </p>
+                    	<p>Sintaxis de la etiqueta <b>&#60a href="https://www.w3schools.com/html/">algo&#60/a&#62</b></p>
+
+					<a name="punto6"></a><h2>6-Anclaje</h2></a>
+						<p>
+                                <a name="anclaje">Anclaje</a>
+                                Este texto contiene un
+                                anclaje que al pinchar
+                                <a href="#anclaje">aquí</a>,
+                                el navegador se sitúa en ese lugar.
+                        </p>
+
+                         <div class="foto">
+                        <img src="./img/6-anclaje.png" width="960"  height="640"  alt="">
+                        </div>
+                    
+                    <br>
+
+					<a name="punto7"></a><h2>7-Hiperenlace interno</h2></a>
+						<p>
+                            Este texto contiene un
+                            hiperenlace hiperenlace-interno
+                            que nos llevará aqui
+                            <a id="hiperenlace-interno">
+                                "destino"</a>,
+                            donde el navegador se situará en
+                            ese lugar.
+                        </p>
+                        <p>
+                            <a href="#hiperenlace-interno">
+                                Destino.</a>
+                            <!--Si añadimos "#top" dentro de "href"
+                                    volveriamos al principio de la página-->
+                        </p>
+                            <div class="foto">
+                            <img src="./img/7-hiperinterno.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+                      
+
+
+					<a name="punto8"></a><h2>8-Hiperenlace general</h2></a>
+						 <p>
+                            Este texto contiene un
+                            hiperenlace-general que nos llevará
+                            al principio (top) de la página de
+                           w3c.<br>
+                            <a href="https://www.w3schools.com/html/#top">
+                                Destino.</a>,
+                            donde el navegador se situará en
+                            ese lugar.
+                        </p>
+                        <!--Si añadimos "URL#top" dentro de "href"
+                                volveriamos al principio de la página 
+                                enlazada.-->
+
+                            <div class="foto">
+                            <img src="./img/8-foto.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+
+					<a name="punto9"></a><h2>9-Hiperenlace href</h2></a>
+						<p>
+                            Para referenciar algo en
+                            nuestra página:
+                            El atributo "href" especifica
+                            el destino del enlace.
+                            <a href="https://es.wikipedia.org/wiki/HTML">
+                                ¡Conoce el etiquetado HTML!</a>
+                        </p>
+
+                         <div class="foto">
+                            <img src="./img/9-foto.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+					<a name="punto10"></a><h2>10-Titulos</h2></a>
+
+						<p>Si seguimos revisando el poder dar formato al texto nos encontramos con los elementos de cabecera o
+	                    titulares.Estos elementos nos servirán para poner títulos a las diferentes secciones que tenga nuestra web.
+	                    Son dos elementos, el de inicio y el de cierre y el contenido será el nombre de la cabecera o
+	                    titular.<br>
+	                    Los <b>&#60h1&#62, &#60h2&#62, &#60h3&#62, &#60h4&#62, &#60h5&#62, &#60h6&#62</b> son los diferentes
+	                    tamaños asociados a los títulos.</p>
+    
+					<a name="punto11"></a><h2>11-Parrafos</h2></a>
+						<p> La etiqueta es: <b>&#60p&#62</b> oon su correspondiente etiqueta de cierre</p>
+
+					<a name="punto12"></a><h2>12-Parrafo preformateado</h2></a>
+
+						 	<pre>
+                                Aquí se pone el contenido 
+                                del párrafo que deseas crear.
+                            </pre>
+                            <p> La etiqueta es: <b>&#60pre&#62</b> oon su correspondiente etiqueta de cierre</p>
+
+                         <div class="foto">
+                            <img src="./img/12-foto.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+
+					<a name="punto13"></a><h2>13-Listas</h2></a>
+
+
+							<h4>Ejemplo de lista ordenada</h4>
+
+						<ol>
+                            <li>Primero en la lista</li>
+                            <li>Segundo en la lista</li>
+                            <li>Tercero en la lista</li>
+                        </ol>
+
+                        <br>
+                        <br>
+
+                        <h4>Ejemplo de lista desordenada</h4>
+
+						<ul>
+                            <li>Primero en la lista</li>
+                            <li>Segundo en la lista</li>
+                            <li>Tercero en la lista</li>
+                        </ul>
+
+                        <br>
+
+                         <div class="foto">
+                            <img src="./img/13-foto.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+
+					<a name="punto14"></a><h2>14-Ordenas secciones</h2></a>
+					<p>
+						Tanto <b>&#60div&#62</b> como <b>&#60section&#62</b> sirven para hacer "cajas" y definirlas de forma
+	                    independiente al resto de nuestro documento HTML.<br>
+	                    De esta forma se nos hará mucho más fácil y cómodo tratar la página y evitar que se nos desordenen
+	                    las
+	                    estructuras.
+					</p>
+					<a name="punto15"></a><h2>15-Importar imagenes en HTML</h2></a>
+
+                            <div class="foto">
+                            <img src="./img/15-foto.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+
+					<a name="punto16"></a><h2>16-Simbolos especiales en HTML</h2></a>
+
+					
+					<p>La estructura de la entidad HTML es un ampersand(&) seguido del código o nombre de la entidad y
+                    terminado en un punto y coma.<br>
+                    <b>https://dev.w3.org/html5/html-author/charref</b> (este enlace tiene todos las entidades).
+                    <a href="https://dev.w3.org/html5/html-author/charref">enlace</a>
+                	</p>
+
+					<a name="punto17"></a><h2>17-Tablas en HTML</h2></a>
+							 <table>
+                            <!--Tabla entera-->
+                            <thead>
+                                <!--Encabezado de tabla-->
+                                <th>Nombre</th>
+                                <!--Table header 
+                                            o encabezado-->
+                                <th>Edad</th>
+                                <th>Altura</th>
+                            <tbody>
+                                <!--Cuerpo de la tabla-->
+                                <tr>
+                                    <!--Table row o fila-->
+                                    <td>Rafa</td>
+                                    <!--Tabla data 
+                                                o columna-->
+                                    <td class="numeric">30</td>
+                                    <td class="numeric">1.90</td>
+                                </tr>
+                                <tr>
+                                    <td>Jose</td>
+                                    <td class="numeric">22</td>
+                                    <td class="numeric">1.50</td>
+                                </tr>
+                                <tr>
+                                    <td>Maria</td>
+                                    <td class="numeric">15</td>
+                                    <td class="numeric">1.45</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                             <div class="foto">
+                            <img src="./img/17-foto.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+
+					<a name="punto18"></a><h2>18-Formularios en HTML</h2></a>
+						<p>
+						<form action="Pagina web.html">
+                            <!--Concepto más amplio para formar formularios, donde hay que especificar donde se lleva a cabo la accion de todo el contenido del formulario
+                                                    donde más concretamente he señalado en "Pagina web.html" con el comando action propio de HTML-->
+                        
+                                Nombre:
+                                <input type=text name=nombre value="" size=25 maxlength=50>
+                                <!--Para añadir cosas a nuestro formulario como por ejemplo una pestaña para indicar tu nombre se realiza mediante etiquetas <input>,
+                                                            en este caso type es el tipo de viñeta que creamos "text" es para indicar que es solo de texto,
+                                                            size indica el tamaño de la viñeta, maxlength indica de cuantos caracteres caben como mucho dentro de la viñeta 
+                                                            y value es si queremos que esté algo escrito por defecto "(vacio en nuestro caso)".-->
+                            </p>
+                            <p>
+                                Correo electrónico:
+                                <input type=text name=nombre value="" size=25 maxlength=50>
+                            </p>
+                            <p>
+                                <input type=submit name=Enviar value="Enviar">
+                                <!--La diferencia con este es que el valor por defecto es "Enviar" y es de tipo submit.-->
+                            </p>
+                            <p>
+                                ¿Te gusta el html?
+                                <input type=checkbox name=nombre>
+                                <!--Consiste en una casilla de verificación que confirma al marcarla una determinada premisa.-->
+                                <!--<input type=radio name=radio> seria un boron radial con un circulo oscuro como marcado, en vez de cuadrado con un tick-->
+                            </p>
+
+                             <div class="foto">
+                            <img src="./img/18-foto.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+                            <a name="punto19"></a><h3>19-Selecciona el nivel de conocimiento de html</h3></a>
+                            <select name=menu size=3 multiple>
+                                <!--La etiqueta select hace un menú de varias opciones con la característica multiple,
+                            donde podremos bajar en el menu con la ruleta del ratón viendo las diferentes opciones.-->
+                                <option value=uno>Muy Poco</option>
+                                <option value=dos>Poco</option>
+                                <option value=tres>Normal</option>
+                                <option value=cuatro>Notable</option>
+                                <option value=siete>Sobresaliente</option>
+                            </select>
+                        </form>
+
+                          <div class="foto">
+                            <img src="./img/19.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+                     
+
+					<a name="punto20"></a><h2>20-Etiquetas label en formularios</h2></a>
+						 <form action="Pagina web.html">
+                            <label for="Name">Nombre: </label>
+                            <input type="text" id="Name" name="Name" /><br>
+                            <label for="Name">E-mail:</label>
+                            <input type=email name=email>
+                            <!--Esta parte está genial, 
+                                    porque el type email, 
+                                    es propia de HTML y por 
+                                    tanto cuando ponemos 
+                                    a escribir en la viñeta creada
+                                    nos aparecen las diferentes 
+                                    opciones de correo 
+                                    electrónido que tenemos guardadas 
+                                    en nuestro ordenador.-->
+                         </form>
+                         <br>
+                          <div class="foto">
+                            <img src="./img/19-foto.png" width="960"  height="640"  alt="">
+                            </div>
+
+					<a name="punto21"></a><h2>21-Menus</h2></a>
+						<form action="Pagina web.html">
+                            <h3>Cuantos cursos de Html has hecho</h3>
+                            <select name=menu>
+                                <option value=uno>Ninguno</option>
+                                <option value=dos>1</option>
+                                <option value=tres>entre 2 y 5</option>
+                                <option value=cuatro>mas de 5</option>
+                                <option value=uno selected>Este es el primero</option>
+                                <!--Esta última será la que esté marcada 
+                                    por defecto con la opción selected.-->
+                            </select>
+                        </form>
+                        <div class="foto">
+                            <img src="./img/20-foto.png" width="960"  height="640"  alt="">
+                            </div>
+                        <br>
+					<a name="punto22"></a><h2>22-Submenus</h2></a>
+						 <form action="Pagina web.html">
+                            <h3>Cuantas veces has visitado la web w3c</h3>
+                            <select name=menu>
+                                <option value=uno>Una</option>
+                                <optgroup label=dos>
+                                    <!--<optgroup> sirve para hacer 
+                                    un submenu en una o varias de 
+                                    las opciones del menu principal.-->
+                                    <option value=dos_a>
+                                        Dos, pero de pasada
+                                    </option>
+                                    <option value=dos_b>
+                                        Dos, pero la segundo me quede horas.
+                                    </option>
+                                </optgroup>
+                                <option value=tres>Tres</option>
+                            </select>
+                        </form>
+                        <br>
+                            <div class="foto">
+                            <img src="./img/21-foto.png" width="960"  height="640"  alt="">
+                            </div>
+					<a name="punto23"></a><h2>23-Editor de texto</h2></a>
+					 <textarea name="texto" rows="10" cols="50">
+                        Texto aqui
+                        </textarea>
+                        <!--rows significa el número de líneas 
+                                visibles en el control
+                                y cols La anchura visible del 
+                                control de texto, en caracteres 
+                                de anchura media.-->
+                        <!--La etiqueta <textarea> contiene 
+                            multitud de atributos autocapitalize, 
+                            autocomplete, autofocus, cols, 
+                            disabled, form, maxlength, minlength, 
+                            name, placeholder, readonly, required, 
+                            rows, selectionDirection, selectionEnd, 
+                            selectionStart, spellcheck y wrap -->
+
+
+                    <p>
+                    <b>rows:</b> indica el número de filas que tiene el área de texto.
+                    <b>cols:</b> indica el número de columnas que tiene el área de texto.
+                    <b>name:</b> al igual que sucede con otros elementos del formulario, name contiene el nombre del campo, el cual será enviado al servidor para ser procesado.
+                    </p>
+                         <div class="foto">
+                            <img src="./img/23.png" width="960"  height="640"  alt="">
+                            </div>
+
+
+					<a name="punto24"></a><h2>24-Lista de valores</h2></a>
+						<label>Elige el codigo que quieras aprender:
+                            <input list="codigos" name="codigo" /></label>
+                        <datalist id="codigos">
+                            <!--Menú desplegable-->
+                            <option value="java">
+                            <option value="c++">
+                            <option value="html">
+                            <option value="css">
+                            <option value="python">
+                            <option value="Ninguno">
+                        </datalist>
+                       
+
+                        <!--Una cosa importante a tener en 
+                                cuenta es que el atributo id 
+                                de la etiqueta <datalist> ha de 
+                                ser igual que el atributo list 
+                                de la etiqueta <input>.
+                                La etiqueta <datalist> especifica 
+                                una lista de opciones predefinidas
+                                para un elemento <input>.La etiqueta 
+                                <datalist> se usa para proporcionar 
+                                una función de "autocompletar" en los 
+                                elementos <input>.
+                                Los usuarios verán una lista desplegable 
+                                de opciones predefinidas a medida que 
+                                ingresan datos.-->
+						 <br>
+
+                         <div class="foto">
+                            <img src="./img/24.png" width="960"  height="640"  alt="">
+                            </div>
+					<a name="punto25"></a><h2>25-Inputs</h2></a>
+
+					  Password:
+                        <input type="password" name=nombre value="" size=25 maxlength=50>
+                        Search:
+                        <input type="search" name=nombre value="" size=25 maxlength=50>
+                        Tel:
+                        <input type="tel" name=nombre value="" size=25 maxlength=50>
+                        Url:
+                        <input type="url" name=nombre value="" size=25 maxlength=50>
+                        Email:
+                        <input type="email" name=nombre value="" size=25 maxlength=50>
+                        Range:
+                        <input type="range" name=nombre value="" size=25 maxlength=50>
+                        Hidden:
+                        <input type="hidden" name=nombre value="" size=25 maxlength=50>
+                        <br>
+                         <div class="foto">
+                            <img src="./img/25.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+
+					   <a name="punto26"></a><h2>26-Botón</h2></a>
+						<button name=submit value=submit type=submit>
+                            Enviar
+                            <img  src="./img/boton_1.gif" alt="enviar">
+                        </button>
+                        <button name=reset type=reset>
+                            Borrar
+                            <img  src="./img/boton_2.gif" alt="borrar">
+
+                        </button>
+                        <br>
+                        <div class="foto">
+                            <img src="./img/26.png" width="960"  height="640"  alt="">
+                        </div>
+                        <br>
+
+					<a name="punto27"></a><h2>27-Marcos</h2></a>
+					<iframe id="paginawiki" title="paginawiki" width="600" height="600"
+                            src="https://es.wikipedia.org/wiki/HTML">
+                        </iframe>
+                        <!--El elemento HTML <iframe> 
+                            (de inline frame) representa un 
+                            contexto de navegación anidado, 
+                            el cual permite incrustrar otra página 
+                            HTML en la página actual.-->
+                        <!--Existen multitud de atributos para 
+                            etiquetas <iframe>: align, frameborder,
+                            height, longdesc, marginheight,
+                            marginwidth, name, sandbox, scrolling,
+                            src, srcdoc y width-->
+                            <div class="foto">
+                            <img src="./img/27.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+					<a name="punto28"></a><h2>28-Audios</h2></a>
+						<audio class="musica" controls src="./img/musica.mp4" width="100%"></audio>
+                        <!--Para incluir un archivo de musica 
+                            a la pagina se utiliza la etiqueta 
+                            <video>.-->
+                        <!--Tiene multitud de atributos
+                            src = ponerle nombre,
+                            width = anchura, height = altura
+                            controls = permite activar la barra de 
+                            control del navegador web,
+                            autoplay = inicia el video 
+                            automaticamente una vez cargue la web,
+                            muted = para silenciar el sonido del video
+                            loop = para poner el video en bucle
+                            preload = como carga el video.-->
+                              <div class="foto">
+                            <img src="./img/28.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+					<a name="punto29"></a><h2>29-Videos</h2></a>
+						<video class="video" controls src="./img/¿Qué es HTML bien explicado.mp4" width="100%"></video>
+                        <!--Para incluir un video a la pagina se 
+                            utiliza la etiqueta <video>.-->
+                        <!--Tiene multitud de atributos
+                            src = ponerle nombre,
+                            width = anchura, height = altura
+                            controls = permite activar la barra de 
+                            control del navegador web,
+                            autoplay = inicia el video 
+                            automaticamente una vez cargue la web,
+                            muted = para silenciar el sonido del video
+                            loop = para poner el video en bucle
+                            preload = como carga el video.-->
+                              <div class="foto">
+                            <img src="./img/29.png" width="960"  height="640"  alt="">
+                            </div>
+                            <br>
+
+					
+					<a href="#top">Volver arriba</a>
+
+				</article>
+
+			</section>	
+		</section>
+
+
+		<aside>
+			<div class="widget">
+				<h3 class="titulo">Indice de contenidos</h3>
+				<ul>
+					<li><a href="#punto1">Intro-Html</a></li>
+					<li><a href="#punto2">Comentarios</a></li>
+					<li><a href="#punto3">Sintaxis</a></li>
+					<li><a href="#punto4">Salto de linea</a></li>
+					<li><a href="#punto5">Hiperenlace Interno</a></li>
+					<li><a href="#punto6">Hiperenlace general</a></li>
+					<li><a href="#punto7">Hiperenlace href</a></li>
+					<li><a href="#punto8">Titulos</a></li>
+					<li><a href="#punto9">Parrafo</a></li>
+					<li><a href="#punto10">Parrafo preformateado</a></li>
+					<li><a href="#punto11">Listas</a></li>
+					<li><a href="#punto12">Seccion</a></li>
+					<li><a href="#punto13">Imagenes</a></li>
+					<li><a href="#punto14">Simbolos</a></li>
+					<li><a href="#punto15">Tablas</a></li>
+					<li><a href="#punto16">Formularios</a></li>
+					<li><a href="#punto17">Label</a></li>
+					<li><a href="#punto18">Menus</a></li>
+					<li><a href="#punto19">Submenus</a></li>
+					<li><a href="#punto20">Editor de texto</a></li>
+					<li><a href="#punto21">Lista de valores</a></li>
+					<li><a href="#punto22">inputs de valores</a></li>
+					<li><a href="#punto23">Botones</a></li>
+					<li><a href="#punto24">Marcos</a></li>
+					<li><a href="#punto25">Audios</a></li>
+					<li><a href="#punto26">Videos</a></li>
+				</ul>
+			</div>
+
+			<div class="widget">
+				<h3 class="titulo">Informacion</h3>
+				<p>Esta página contiene toda la información relevante de etiquetas html y elementos eseneciales para poder hacer una
+				estructura web</p>
+			</div>
+
+
+		</aside>
+
+		<footer>
+			
+			<p>Página realizada por Rafael dieste</p>
+		</footer>
+	</div>
+	
+</body>
+</html>
